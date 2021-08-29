@@ -16,13 +16,14 @@ make installは未実装です。
 
 ## 使用方法
 usbgeiger [-dlfVRGH]
+
     (オプションなし)				# 日付・時刻、カウント数・経過時間(秒)を表示
     -d  : Enable debugging			# デバッグ情報の表示
     -h  : Show usage			# 使用方法の表示
-    -l  : Show device list		# 接続デバイスの一覧表示
+    -l  : Show device list			# 接続デバイスの一覧表示
     -sn : Specify device number (n=0:all)	# 複数接続時のデバイス指定(n=0:すべて)
-    -V  : Show firmware version	# ファームウェアバージョンの表示
-    -C  : Clear dev_counter		# カウンター値・経過時間のクリア
+    -V  : Show firmware version		# ファームウェアバージョンの表示
+    -C  : Clear dev_counter			# カウンター値・経過時間のクリア
 
 ## 実行例
      $ ./usbgeiger
